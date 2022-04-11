@@ -1,0 +1,42 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+border-left: 5px solid rgba($color: #808080, $alpha: 0.3);
+margin-left: 20px;
+padding: 5px;
+margin: 10px 10px;
+
+}
+
+.coach {
+  background-color: beige;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #2a4387;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0px;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.field {
+  width: auto;
+  display: inline-block;
+  margin-right: 0;
+  width: 300px;
+}
+
+form {
+  height: 40px;
+  display: flex;
+}
